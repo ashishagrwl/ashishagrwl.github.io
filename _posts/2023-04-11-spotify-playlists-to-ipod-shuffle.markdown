@@ -19,7 +19,7 @@ Requirements:
 
 The following steps are written for Ubuntu on WSL but should work on other platforms with slight changes.
 
-1. (For higher quality downloads, optional) Download cookies.txt for Youtube Music using a browser extension like this one - https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc
+1. (For higher quality downloads, optional) Download cookies.txt for Youtube Music using a browser extension like this one - <https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc>
 
 2. Download spotdl using pip and download ffmpeg.
 ```
