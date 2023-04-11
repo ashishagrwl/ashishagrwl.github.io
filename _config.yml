@@ -30,12 +30,13 @@ twitter_username: ashishwt
 github_username:  ashishagrwl
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 minima:
-  skin: dark
+  skin: auto
 
 # Exclude from processing.
 # The following items will not be processed, by default.

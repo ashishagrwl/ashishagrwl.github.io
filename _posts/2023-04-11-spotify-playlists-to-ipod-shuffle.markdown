@@ -17,7 +17,7 @@ Requirements:
 * iTunes on Windows
 * [spotdl][spotdl]
 
-The following steps are written for Ubuntu on WSL but should work on other platforms with slight changes.
+I wrote the following steps for Ubuntu on WSL but they should work on other platforms with slight changes.
 
 1. (For higher quality downloads, optional) Download cookies.txt for Youtube Music using a browser extension like this one - <https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc>
 
@@ -36,7 +36,7 @@ spotdl --download-ffmpeg
     * update "cookie_file" to the path of the cookies.txt file downloaded in step 1.
     * update format to m4a.
 
-5. Run spotdl synnc inside the subfolder with the playlist URL. E.g.
+5. Run spotdl sync inside the subfolder with the playlist URL. E.g.
 `spotdl sync https://open.spotify.com/playlist/1FVwLROwulS08mWDkHBViQ?si=44d6bfb36f184932 --save-file sync.spotdl`
 
 6. Open iTunes and drag and drop the files from the subfolder to a corresponding playlist in iTunes.
