@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How I sync my Spotify playlists to my iPod Shuffle"
-categories: music how-to
+categories: how-to
 ---
 
 I have an iPod Shuffle 4th gen from 2014. It still works and is handy for listening to podcasts and music.
@@ -44,7 +44,7 @@ spotdl --download-ffmpeg
 7. Sync the iTunes playlists to iPod shuffle.
 
 8. I also created a file called sync.sh in the spotdl folder with the following contents:
-`find . -type f -name "*.spotdl" -execdir spotdl sync sync.spotdl \;`
+`find . -type f -name "*.spotdl" -execdir spotdl sync sync.spotdl \;`\
 This recursively syncs all playlists in each sub-folder.
 
 9. Profit!
